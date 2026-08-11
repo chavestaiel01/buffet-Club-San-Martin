@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buffet San Martín</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <!-- HEADER / HERO -->
+    <header id="inicio" class="hero">
+        <nav class="nav">
+            <div class="burger" id="burger">
+                <span></span><span></span><span></span>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="#horarios">Horarios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <div class="hero-content">
+            <h1>BUFFET<br>SAN MARTÍN</h1>
+            <p class="hero-subtitle">Club San Martín</p>
+            <p class="hero-tagline">Comida casera. Buena mesa. Amigos de siempre.</p>
+        </div>
+
+        <div class="scroll-down">
+            <span>▾</span>
+        </div>
+    </header>
+
+    <!-- NOSOTROS -->
+    <section id="nosotros" class="section about">
+        <span class="eyebrow">Nosotros</span>
+        <h2>El buffet del club</h2>
+        <p>
+            Desde hace años, el buffet del Club San Martín es el punto de encuentro de socios,
+            familias y amigos. Comida casera, buena atención y el clima de club de siempre.
+            <em>(Reemplazá este texto por la historia real del buffet.)</em>
+        </p>
+    </section>
+
+    <!-- MENÚ -->
+    <section id="menu" class="section menu">
+        <span class="eyebrow">Carta</span>
+        <h2>Nuestro menú</h2>
+
+        <a href="menu/menu-buffet-san-martin.pdf" target="_blank" rel="noopener" class="menu-card"
+            style="background-image: url('img/menu-card-bg.jpg');">
+            <div class="menu-card-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+                    <path d="M6 2.5h8.5L19 7v14.5H6z" />
+                    <path d="M14.5 2.5V7H19" />
+                    <path d="M8.5 12.5h7M8.5 15.5h7M8.5 18.5h4.5" />
+                </svg>
+            </div>
+            <h3>Ver menú completo</h3>
+            <p>CLIK AQUI</p>
+            <span class="menu-card-btn">Abrir menú</span>
+        </a>
+    </section>
+
+    <!-- HORARIOS + CONTACTO -->
+    <section id="horarios" class="section info">
+        <span class="eyebrow">Atención</span>
+        <h2>Horarios de atención</h2>
+        <div class="schedule">
+            <p><strong>Martes a viernes:</strong> 10:00 a 15:00 hs. | 18:30 a 00:00 hs.</p>
+            <p><strong>Sábados:</strong> 10:00 a 16:00 hs. | 18:30 a 01:00 hs.</p>
+            <p><strong>Domingos:</strong> 10:00 a 16:00 hs. | 19:00 a 00:00 hs.</p>
+        </div>
+
+        <div class="info-grid" id="contacto">
+            <div class="info-item">
+                <div class="icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path d="M12 21s-7-6.1-7-11.5C5 5.9 8.1 3 12 3s7 2.9 7 6.5C19 14.9 12 21 12 21z" />
+                        <circle cx="12" cy="9.5" r="2.3" />
+                    </svg>
+                </div>
+                <h4>Dirección</h4>
+                <p>Quintana 462<br>San Andrés de Giles<br>Buenos Aires</p>
+            </div>
+
+            <div class="info-item">
+                <div class="icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path
+                            d="M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.4 21 3 13.6 3 4.8c0-.6.4-1 1-1h3.4c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.4 0 .8-.3 1L6.6 10.8z" />
+                    </svg>
+                </div>
+                <h4>Teléfonos</h4>
+                <p>2325-568510<br>2325-440902</p>
+                <a href="https://wa.me/5490000000000" class="whatsapp-btn" aria-label="WhatsApp" target="_blank"
+                    rel="noopener">
+                    <svg viewBox="0 0 32 32" fill="#fff">
+                        <path
+                            d="M16 3C9.4 3 4 8.4 4 15c0 2.3.6 4.4 1.7 6.3L4 29l7.9-1.6c1.8.9 3.9 1.4 6.1 1.4 6.6 0 12-5.4 12-12S22.6 3 16 3zm0 21.9c-2 0-3.9-.5-5.5-1.5l-.4-.2-4.6.9.9-4.5-.3-.4C4.9 17.5 4.3 15.8 4.3 14c0-6.5 5.3-11.7 11.7-11.7S27.7 7.5 27.7 14 22.4 24.9 16 24.9zm6.4-8.8c-.3-.2-2-1-2.3-1.1-.3-.1-.5-.2-.8.2-.2.3-.9 1.1-1.1 1.4-.2.2-.4.3-.7.1-.3-.2-1.4-.5-2.7-1.7-1-.9-1.7-2-1.9-2.3-.2-.3 0-.5.1-.7.1-.1.3-.4.5-.5.2-.2.2-.3.3-.5.1-.2 0-.4 0-.6-.1-.2-.8-1.9-1.1-2.6-.3-.7-.6-.6-.8-.6h-.7c-.2 0-.6.1-.9.4-.3.3-1.2 1.2-1.2 2.8 0 1.6 1.2 3.2 1.4 3.4.2.2 2.4 3.7 5.8 5.1.8.3 1.4.5 1.9.7.8.3 1.5.2 2.1.1.6-.1 2-.8 2.2-1.6.3-.8.3-1.5.2-1.6-.1-.2-.3-.2-.6-.4z" />
+                    </svg>
+                </a>
+            </div>
+
+            <div class="info-item">
+                <div class="icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <rect x="3" y="5" width="18" height="14" rx="1.5" />
+                        <path d="M3.5 6.5 12 13l8.5-6.5" />
+                    </svg>
+                </div>
+                <h4>Email</h4>
+                <p>buffet@clubsanmartin.com.ar</p>
+            </div>
+        </div>
+
+        <div class="socials">
+            <a href="#" aria-label="Facebook">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <path
+                        d="M15 8.5h-2c-.6 0-1 .4-1 1V12h3l-.4 3h-2.6v7h-3v-7H7v-3h1.9V9.2C8.9 6.7 10.3 5 12.8 5H15v3.5z" />
+                </svg>
+            </a>
+            <a href="#" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <rect x="3.5" y="3.5" width="17" height="17" rx="4.5" />
+                    <circle cx="12" cy="12" r="4" />
+                    <circle cx="17" cy="7" r="0.8" fill="currentColor" stroke="none" />
+                </svg>
+            </a>
+        </div>
+    </section>
+
+    <!-- BANNER PEDIDOS -->
+    <div class="pedidos-banner">
+        <img src="./img/san martin.jpeg"
+            alt="Hacenos tu pedido y pasá a retirarlo - Quintana 462, San Andrés de Giles - Tel. 2325-568510 / 2325-440902">
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>&copy; 2026 Buffet San Martín — Club San Martín</p>
+        <a href="#inicio" class="back-top">Inicio ↑</a>
+    </footer>
+
+    <script src="./js/parallax.js"></script>
+    <script src="./js/menu.js"></script>
+</body>
+
+</html>
